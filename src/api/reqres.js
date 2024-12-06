@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Use the environment variable for the base URL
-const API = axios.create({ baseURL: process.env.REACT_APP_API_BASE_URL });
+const API = axios.create({ baseURL: 'https://reqres.in/api' });
 
 // API Endpoints
 export const login = (data) => API.post('/login', data);
