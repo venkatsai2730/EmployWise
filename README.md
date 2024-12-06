@@ -95,10 +95,9 @@ The Reqres API is a mock API, so it does not persist user edits or deletions. Th
 Pagination:
 
 User data is paginated, and the application retrieves data for the current page using the page query parameter.
-Environment Variables:
 
-The REACT_APP_API_BASE_URL environment variable allows flexibility to switch between APIs during development, staging, and production.
-Responsive Design:
+
+
 
 The UI is fully responsive and optimized for both mobile and desktop views using Tailwind CSS.
 Scripts
